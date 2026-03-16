@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             Chat_applicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Android user",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
