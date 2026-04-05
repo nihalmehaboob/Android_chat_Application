@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "290426276004",
+    "project_id": "rentapplication-dcd85",
+    "storage_bucket": "rentapplication-dcd85.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290426276004:android:05125c2977ade0e1d8fe31",
+        "android_client_info": {
+          "package_name": "com.example.chatapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAJLH1TsdVfXdXCemFDGzqf-4PMWq0lUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
