@@ -2,16 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
-    namespace = "com.example.chat_application"
-    compileSdk {
-        version = release(36)
-    }
+    namespace = "com.example.chatapplication"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.chat_application"
+        applicationId = "com.example.chatapplication"
         minSdk = 29
         targetSdk = 36
         versionCode = 1
@@ -50,6 +49,12 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.navigation:navigation-compose:2.8.0")
+    implementation("io.coil-kt:coil-compose:2.0.0-rc01")
+    implementation("androidx.compose.runtime:runtime-livedata")
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore.ktx)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
